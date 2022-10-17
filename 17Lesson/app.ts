@@ -18,10 +18,10 @@ const f2: voidFunc = () => {
 };
 const b1 = f2();
 
-const skillArr = ['devicePixelRatio', 'devops'];
+const skillArr = ["dev", "devops"];
 
 const user17 = {
-  s: ['s'],
+  s: ["s"],
 };
 
-skillArr.forEach(skill => user17.s.push(skill));
+skillArr.forEach((skill) => user17.s.push(skill));
